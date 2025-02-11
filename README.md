@@ -9,5 +9,5 @@
 3.密碼加密
 > ![image](https://github.com/user-attachments/assets/788a3963-ddd0-48f6-a22a-0478913e8936)
 
-4.[登入後的畫面](http://127.0.0.1:8080/home/dashboard.php)
+4.[登入後的畫面（尚未登入會回到１）](http://127.0.0.1:8080/home/dashboard.php)
 >　![image](https://github.com/user-attachments/assets/f28cbfb3-7aee-4a1f-83f0-a449c57bbf3d)
