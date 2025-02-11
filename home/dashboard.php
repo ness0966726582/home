@@ -21,8 +21,8 @@ if (!isset($_SESSION['user'])) {
     </div>
     <div class="container">
         <div class="sidebar">
-            <a href="#">🏠 首頁</a>
-            <a href="#">📊 報表</a>
+            <a href="http://10.231.220.145:8080/home/dashboard.php">🏠 首頁</a>
+            <a href="http://10.231.220.207:3000/public/dashboard/68fea43f-9b4c-4856-97d2-ec359b8ff668">📊 BI報表</a>
             <a href="#">⚙ 設定</a>
         </div>
         <div class="content">
