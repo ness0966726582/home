@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊帳號</title>
+    <link rel="stylesheet" href="style.css">  <!-- 引入 CSS -->
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <h2>註冊帳號</h2>
+        <form action="register.php" method="POST">
+            <label for="account">帳號：</label>
+            <input type="text" name="account" required>
+
+            <label for="password">密碼：</label>
+            <input type="password" name="password" required>
+
+            <label for="email">電子郵件：</label>
+            <input type="email" name="email" required>
+
+            <button type="submit">註冊</button>
+        </form>
+        <p>已經有帳號？<a href="login.html">點此登入</a></p>
+    </div>
+</body>
+</html>

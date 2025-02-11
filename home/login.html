@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入系統</title>
+    <link rel="stylesheet" href="style.css">  <!-- 🔹 引入完整 CSS -->
+</head>
+<body class="login-body">  <!-- 🔹 使用 login-body 讓表單置中 -->
+    <div class="login-container">
+        <h2>登入系統</h2>
+        <form action="login.php" method="POST">
+            <label for="account">帳號：</label>
+            <input type="text" name="account" required>
+
+            <label for="password">密碼：</label>
+            <input type="password" name="password" required>
+
+            <button type="submit">登入</button>
+        </form>
+        
+        <!-- 🔹 註冊按鈕 -->
+        <button onclick="window.location.href='/home/register.html'" class="register-btn">註冊</button>
+    </div>
+</body>
+</html>
